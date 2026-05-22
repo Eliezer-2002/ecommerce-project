@@ -1,0 +1,32 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.product-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.cart-badge {
+  font-size: 0.65rem;
+}
+
+.review-card {
+  border-left: 3px solid #0d6efd;
+}
+
+.price-tag {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
