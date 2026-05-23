@@ -130,8 +130,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Production static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://web-production-53d83.up.railway.app',
-#     'https://ecommerce-project-seven-vert.vercel.app',
-# ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-53d83.up.railway.app',
+    'https://ecommerce-project-seven-vert.vercel.app',
+]
+
 CORS_ALLOW_ALL_ORIGINS = True
