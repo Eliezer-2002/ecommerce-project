@@ -130,8 +130,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Production static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# # Allow Railway domain (we'll update this after deploy)
-# ALLOWED_HOSTS = ['*']
-
-# CORS for production (we'll update after Vercel deploy)
-CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-53d83.up.railway.app',
+    'https://ecommerce-project-seven-vert.vercel.app',
+]
+# CORS_ALLOW_ALL_ORIGINS = True
